@@ -1,0 +1,424 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<!-- Header
+============================================ -->
+<div class="header-area dark animated">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!--Header Logo-->
+                <div class="header-logo float-left">
+                    <a class="logo" href="/Home/Index/"><img src="~/Content/img/section-bg/logo6.png"></a>
+                </div>
+                <!--Main Menu-->
+                <div class="main-menu float-right">
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="index.html#intro">Anasayfa</a></li>
+
+                           
+                            <li><a href="index.html#galeri">Galeri</a></li>
+                            <li><a href="index.html#hizmetlerimiz">Hizmetlerimiz</a></li>
+                            <li><a href="index.html#kuaforsalonumuz">Kuafor Salonumuz</a></li>
+                            
+                            <li><a href="index.html#iletisim">İletişim</a></li>
+                            <li><a href="/Kullanıcı/Create/">Üye Ol</a></li>
+                            @if (Session["üyeid"] != null)
+                            {
+                                <li><a href="/UyeRandevu/Details2">Randevularım</a></li>
+                                <li><a href="/UyeRandevu/Create">Randevu Al</a></li>
+                                <li><a href="/Kullanıcı/Index/@Session["üyeid"]">@Session["KullanıcıAdı"].ToString()</a></li>
+                                <li><a href="/Kullanıcı/Logout/">Çıkış</a></li>
+                                if (Convert.ToInt32(Session["yetkiid"]) == 1)
+                                {
+
+                                    <li><a href="/Admin/Index/" target="_blank">Admin Paneli</a></li>
+                                }
+                            }
+                            else
+                            {
+                                <li><a href="/Kullanıcı/Login/">Giriş</a></li>
+                            }
+
+                        </ul>
+                    </nav>
+                </div>
+                <!--Mobile Menu-->
+                <div class="mobile-menu"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Intro Area
+============================================ -->
+<div id="intro" class="intro-area section overlay table">
+    <!--Kenburne Slideshow-->
+    <div class="kenburne-slider">
+        <img src="~/Content/img/section-bg/1.jpg" alt="slideshow" />
+        <img src="~/Content/img/section-bg/2.jpg" alt="slideshow" />
+        <img src="~/Content/img/section-bg/8.jpg" alt="slideshow" />
+    </div>
+    <div class="table-cell">
+        <div class="container">
+            <div class="row">
+                <!--Intro Content-->
+                <div class="intro-content text-center col-xs-12">
+                    <h1><span>Merhaba Burası</span>Joseph's House</h1>
+                    <h3 class="cd-headline clip">
+                        <span>Güzel </span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">Saçlar</b>
+                            <b>Kadınlar</b>
+                        </span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="scroll-down" data-scroll href="#galeri"><i></i></a>
+</div>
+
+
+<div id="randevual" class="portfolio-area section bg-dark pt-100">
+    <div class="container">
+
+        <!--Section Title-->
+        <div class="row">
+            <div class="section-title col-xs-12 text-center">
+                <a href="/Kullanıcı/Create/"><h1><span>Online Randevu İçin Hemen Üye Olun</span></h1></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Galeri Area
+============================================ -->
+<div id="galeri" class="portfolio-area section bg-dark pt-100">
+    <div class="container">
+
+        <!--Section Title-->
+        <div class="row">
+            <div class="section-title col-xs-12 text-center">
+                <h1><span>Galeri</span></h1>
+            </div>
+        </div>
+        <div class="row">
+
+            <!--Portfolio Grid-->
+            <div class="portfolio-grid">
+                <!--Portfolio Item-->
+                <div class="item web col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/1.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/1.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item uiux col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/2.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/2.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item branding col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/3.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/3.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item uiux col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/4.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/4.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item web col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/5.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/5.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item print col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/6.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/6.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item branding col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/7.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/7.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item web col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/8.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/8.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item print col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/9.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/9.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item uiux col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/10.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/10.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item branding col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/11.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/11.jpg" alt="">
+
+                    </a>
+                </div>
+                <!--Portfolio Item-->
+                <div class="item print col-lg-3  col-md-4 col-sm-6 col-xs-12 mb-30">
+                    <a href="~/Content/img/portfolio/big/12.jpg" data-image-popup class="single-portfolio">
+                        <img src="~/Content/img/portfolio/12.jpg" alt="">
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- Service Area
+============================================ -->
+<div id="hizmetlerimiz" class="service-area section bg-dark pb-60 pt-70">
+    <div class="container">
+
+        <!--Section Title-->
+        <div class="row">
+            <div class="section-title col-xs-12 text-center">
+                <h1><span>Hizmetlerimiz</span></h1>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!--Single Service-->
+            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
+                <img src="https://i.hizliresim.com/WQOZVL.png">
+                <br />
+                </p>
+                <h4>Profesyonel Makyaj</h4>
+                <p>Makyaj, gerçek uzmanlar tarafından yapıldığında büyülü bir etki yaratabilir</p>
+            </div>
+
+            <!--Single Service-->
+            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
+                <img src="https://i.hizliresim.com/kWPgZv.png">
+                <br />
+                </p>
+                <h4>Saç Kesimi ve Şekillendirme</h4>
+                <p>Bu sadece bir iş değil, kadınların saçlarıyla çalışmak bir zevk ve sanattır</p>
+            </div>
+            <!--Single Service-->
+            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
+                <img src="https://i.hizliresim.com/mk9zq2.png">
+                <br />
+                </p>
+                <h4>Kirpik Eklentileri</h4>
+                <p>Hiçbir şey bir kadına uzun kıvrık kirpikler kadar cazibe kazandırmaz</p>
+            </div>
+            <!--Single Service-->
+            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
+                <img src="https://i.hizliresim.com/VMJL2R.png">
+                <br />
+                </p>
+                <h4>Profesyonel Stiller</h4>
+                <p>Sana neyin mükemmel uyum göstereceğini her zaman kendin bilemezsin</p>
+            </div>
+            <!--Single Service-->
+            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
+                <img src="https://i.hizliresim.com/nWqgY1.png">
+                <br />
+                </p>
+                <h4>Manikür & Pedikür</h4>
+                <p>Eller ve ayaklar çok işinize yarıyor, bazen de tatile ihtiyaçları var.</p>
+            </div>
+            <!--Single Service-->
+            <div class="single-service col-md-4 col-sm-6 col-xs-12 mb-40">
+                <img src="https://i.hizliresim.com/bGo24Y.png">
+                <br />
+                </p>
+                <h4>Yenileyici Tedaviler</h4>
+                <p>Kesinlikle yeni teknoloji, VIP'lerimiz için kesinlikle özel servis</p>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+<!-- Testimonial Area
+============================================ -->
+<div class="testimonial-area section overlay pb-100 pt-100" style="background-image: url('https://i.hizliresim.com/okRoJq.jpg');">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+                <!--Testimonial Slider-->
+                <div class="testimonial-slider text-center">
+                    <!--Single Testimonial-->
+                    <div class="single-testimonial">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Bir kadını en güzel gösteren makyaj tutkusudur. Ama kozmetik ürünlerini almak daha kolaydır.</p>
+
+                    </div>
+                    <!--Single Testimonial-->
+                    <div class="single-testimonial">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Hiçbirşey bir kadını güzel olduğuna inanmak kadar iyi yapamaz.</p>
+
+                    </div>
+                    <!--Single Testimonial-->
+                    <div class="single-testimonial">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Stil karmaşık şeyler söyleyemenin basit yoludur.</p>
+
+                    </div>
+
+                    <div class="single-testimonial">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Güzel saçlar sizleri baştan aşağı değiştirebilir.</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div id="kuaforsalonumuz" class="service-area section bg-dark pb-60 pt-70">
+    <div class="container">
+
+        <!--Section Title-->
+        <div class="row">
+            <div class="section-title col-xs-12 text-center">
+                <h1><span>Kuafor Salonumuz</span></h1>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/1-740x560.jpg">
+                    <img width="740" height="560" src="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/1-740x560.jpg" class="attachment-thumb-740x560" alt="Salon Equipment" srcset="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/1-370x280.jpg 370w, http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/1-740x560.jpg 740w" sizes="(max-width: 740px) 100vw, 740px" />
+                </a>
+                <div class="desc"><p>Biz sizin için buradayız</p></div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/22-740x560.jpg">
+                    <img width="740" height="560" src="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/22-740x560.jpg" class="attachment-thumb-740x560" alt="Salon Equipment" srcset="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/22-370x280.jpg 370w, http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/22-740x560.jpg 740w" sizes="(max-width: 740px) 100vw, 740px" />
+                </a>
+                <div class="desc"><p>Salonumuza hayran olmanız için</p></div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/4-740x560.jpg">
+                    <img width="740" height="560" src="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/4-740x560.jpg" class="attachment-thumb-740x560" alt="Salon Interiors" srcset="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/4-370x280.jpg 370w, http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/4-740x560.jpg 740w" sizes="(max-width: 740px) 100vw, 740px" />
+                </a>
+                <div class="desc"><p>Her anınızın rahat olması için</p></div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/6-740x560.jpg">
+                    <img width="740" height="560" src="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/6-740x560.jpg" class="attachment-thumb-740x560" alt="Salon Interiors" srcset="http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/6-370x280.jpg 370w, http://cinderella.stylemixthemes.com/wp-content/uploads/2015/06/6-740x560.jpg 740w" sizes="(max-width: 740px) 100vw, 740px" />
+                </a>
+                <div class="desc"><p>Her zaman en iyisini hakeden sizlere</p></div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+
+</div>
+
+
+<!-- Footer Area
+============================================ -->
+<div id="footer" class="footer-area section overlay" style="background-image: url('https://i.hizliresim.com/4MvX5Y.jpg');">
+    <!--Contact Area-->
+    <div id="iletisim" class="contact-area section pb-45 pt-100">
+        <div class="container">
+            <!--Section Title-->
+            <div class="row">
+                <div class="section-title white col-xs-12 text-center">
+                    <h1>Bizimle İletişime  <span>Geçin</span></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12">
+                    <!--Contact Info-->
+                    <div class="row">
+                        <!--Single Contact Info-->
+                        <div class="single-contact-info text-center col-sm-4 col-xs-12 mb-40">
+                            <i class="icon pe-7s-phone"></i>
+                            <p>+222-567-3747</p>
+                            <p>+222-josephs</p>
+                        </div>
+                        <!--Single Contact Info-->
+                        <div class="single-contact-info text-center col-sm-4 col-xs-12 mb-40">
+                            <i class="icon pe-7s-mail-open"></i>
+                            <p>josephshouse@domain.com</p>
+                            <p>jshouse@domain.com</p>
+                        </div>
+                        <!--Single Contact Info-->
+                        <div class="single-contact-info text-center col-sm-4 col-xs-12 mb-40">
+                            <i class="icon pe-7s-map"></i>
+                            <p>İsmail Gaspıralı Sk. Bahçesaray/KIRIM, Ukrayna</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer Bottom-->
+    <div class="footer-bottom section pb-35 pt-35">
+        <div class="container">
+            <div class="row">
+                <!--Social-->
+                <div class="social text-center col-xs-12 mb-15">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+

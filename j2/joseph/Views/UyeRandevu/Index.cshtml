@@ -1,0 +1,62 @@
+﻿@model IEnumerable<joseph.Models.Randevu>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+    <h2>Randevular</h2>
+
+    <p>
+        @Html.ActionLink("Yeni Randevu Oluştur", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>Çalışan
+                @Html.DisplayNameFor(model => model.Calisan.Adi)
+            </th>
+
+            <th>Müşteri
+                @Html.DisplayNameFor(model => model.Musteri.Adi)
+            </th>
+            <th>Müşteri
+                @Html.DisplayNameFor(model => model.Musteri.Soyadi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Saat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tarih)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calisan.Adi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Musteri.Adi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Musteri.Soyadi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Saat.Adi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tarih)
+                </td>
+                <td>
+                    @Html.ActionLink("Düzenle", "Edit", new { id = item.RandevuID }) |
+                    @Html.ActionLink("Detaylar", "Details", new { id = item.RandevuID }) |
+                    @Html.ActionLink("Sil", "Delete", new { id = item.RandevuID })
+                </td>
+            </tr>
+        }
+
+    </table>
+    

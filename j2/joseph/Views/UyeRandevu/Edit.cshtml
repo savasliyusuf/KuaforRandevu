@@ -1,0 +1,97 @@
+﻿@model joseph.Models.Randevu
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script type="text/javascript" src="~/Scripts/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#datetimepicker').datetimepicker(
+            {
+                format: "DD/MM/YYYY",
+            }
+        );
+    });
+</script>
+<div class="header-area dark animated">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!--Header Logo-->
+                <div class="header-logo float-left">
+                    <a class="logo" href="#"><img src="~/Content/img/section-bg/logo6.png"></a>
+                </div>
+                <!--Main Menu-->
+                <div class="main-menu float-right">
+                    <nav>
+                        <ul>
+                            <li><a href="/Home/Index"><p style="color:red">Anasayfa</p></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <!--Mobile Menu-->
+                <div class="mobile-menu"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-area section bg-dark pt-120 col-md-8">
+
+    <h2>Randevu Düzenle</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.RandevuID)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.MusteriNo, "Müşteri Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("MusteriNo", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MusteriNo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CalisanNo, "Çalışan Adı", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("CalisanNo", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.CalisanNo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Tarih, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Tarih, new { htmlAttributes = new { @class = "form-control", @id = "datetimepicker" } })
+                    @Html.ValidationMessageFor(model => model.Tarih, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SaatID, "Saat ", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("SaatID", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.SaatID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @Html.ActionLink("Randevulara Geri Dön", "Index")
+    </div>
+</div>

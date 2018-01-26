@@ -1,0 +1,81 @@
+﻿@model joseph.Models.Randevu
+
+@{
+    ViewBag.Title = "Details2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="header-area dark animated">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!--Header Logo-->
+                <div class="header-logo float-left">
+                    <a class="logo" href="#"><img src="~/Content/img/section-bg/logo6.png"></a>
+                </div>
+                <!--Main Menu-->
+                <div class="main-menu float-right">
+                    <nav>
+                        <ul>
+                            <li><a href="/Home/Index"><p style="color:red">Anasayfa</p></a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <!--Mobile Menu-->
+                <div class="mobile-menu"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio-area section bg-dark pt-120 col-md-8" style="height: 670px;">
+    <h2>Randevunuzun Detayları</h2>
+
+    <div>
+        
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model)Çalışan Adı
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Calisan.Adi)
+            </dd>
+
+
+
+            <dt>
+                @Html.DisplayNameFor(model => model)Müşteri Adı
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Musteri.Adi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model) Müşteri Soyadı
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Musteri.Soyadi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Saat)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Saat.Adi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Tarih)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Tarih)
+            </dd>
+
+        </dl>
+    </div>
+   </div>

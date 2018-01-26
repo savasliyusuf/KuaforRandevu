@@ -1,0 +1,110 @@
+﻿@model joseph.Models.Musteri
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Header
+============================================ -->
+<div class="header-area dark animated">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <!--Header Logo-->
+                <div class="header-logo float-left">
+                    <a class="logo" href="#"><img src="~/Content/img/section-bg/logo6.png"></a>
+                </div>
+                <!--Main Menu-->
+                <div class="main-menu float-right">
+                    <nav>
+                        <ul>
+                            <li><a href="/Home/Index"><p style="color:red">Anasayfa</p></a></li>
+                            
+                        </ul>
+                    </nav>
+                </div>
+                <!--Mobile Menu-->
+                <div class="mobile-menu"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-area section bg-dark pt-120 col-md-8" style="height: 670px;">
+    <h2>Profil</h2>
+    <div>
+        
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Yetki.YetkiAdı)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Yetki.YetkiAdı)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Adi)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Adi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Soyadi)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Soyadi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.KullaniciAdi)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.KullaniciAdi)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Sifre)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Sifre)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Adres)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Adres)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Telefon)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Telefon)
+            </dd>
+
+        </dl>
+        <p>
+            @Html.ActionLink("Güncelle", "Edit", new { id = Model.MusteriNo }) |
+
+        </p>
+    </div>
+    </div>
+   

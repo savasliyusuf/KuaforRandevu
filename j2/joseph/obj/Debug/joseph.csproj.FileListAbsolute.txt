@@ -1,0 +1,260 @@
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\csc.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\csc.exe.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\csc.rsp
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\csi.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\csi.rsp
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\System.AppContext.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\vbc.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\vbc.exe.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\vbc.rsp
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\VBCSCompiler.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\joseph.dll.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\joseph.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\joseph.pdb
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Helpers.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Mvc.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Razor.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Webpages.Deployment.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Webpages.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Webpages.Razor.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Razor.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Webpages.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Webpages.Deployment.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Webpages.Razor.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Helpers.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\System.Web.Mvc.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\tr\System.Web.Razor.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\obj\Debug\joseph.csprojResolveAssemblyReference.cache
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\obj\Debug\joseph.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\joseph\joseph\obj\Debug\joseph.pdb
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\csc.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\csc.exe.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\csc.rsp
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\csi.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\csi.rsp
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\System.AppContext.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\vbc.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\vbc.exe.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\vbc.rsp
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\VBCSCompiler.exe
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\joseph.dll.config
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\joseph.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\joseph.pdb
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Helpers.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Mvc.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Razor.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Webpages.Deployment.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Webpages.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Webpages.Razor.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Razor.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Webpages.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Webpages.Deployment.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Webpages.Razor.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Helpers.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\System.Web.Mvc.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\tr\System.Web.Razor.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\obj\Debug\joseph.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\obj\Debug\joseph.pdb
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\EntityFramework.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\EntityFramework.SqlServer.dll
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\EntityFramework.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\bin\EntityFramework.SqlServer.xml
+C:\Users\furkan\Documents\Visual Studio 2017\Projects\j2\joseph\obj\Debug\joseph.csprojResolveAssemblyReference.cache
+C:\My Web Sites\j2\joseph\bin\roslyn\csc.exe
+C:\My Web Sites\j2\joseph\bin\roslyn\csc.exe.config
+C:\My Web Sites\j2\joseph\bin\roslyn\csc.rsp
+C:\My Web Sites\j2\joseph\bin\roslyn\csi.exe
+C:\My Web Sites\j2\joseph\bin\roslyn\csi.rsp
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\My Web Sites\j2\joseph\bin\roslyn\System.AppContext.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\System.Collections.Immutable.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\System.IO.FileSystem.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\System.Reflection.Metadata.dll
+C:\My Web Sites\j2\joseph\bin\roslyn\vbc.exe
+C:\My Web Sites\j2\joseph\bin\roslyn\vbc.exe.config
+C:\My Web Sites\j2\joseph\bin\roslyn\vbc.rsp
+C:\My Web Sites\j2\joseph\bin\roslyn\VBCSCompiler.exe
+C:\My Web Sites\j2\joseph\bin\roslyn\VBCSCompiler.exe.config
+C:\My Web Sites\j2\joseph\bin\joseph.dll.config
+C:\My Web Sites\j2\joseph\bin\joseph.dll
+C:\My Web Sites\j2\joseph\bin\joseph.pdb
+C:\My Web Sites\j2\joseph\bin\EntityFramework.dll
+C:\My Web Sites\j2\joseph\bin\EntityFramework.SqlServer.dll
+C:\My Web Sites\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\My Web Sites\j2\joseph\bin\Microsoft.Web.Infrastructure.dll
+C:\My Web Sites\j2\joseph\bin\System.Web.Helpers.dll
+C:\My Web Sites\j2\joseph\bin\System.Web.Mvc.dll
+C:\My Web Sites\j2\joseph\bin\System.Web.Razor.dll
+C:\My Web Sites\j2\joseph\bin\System.Web.Webpages.Deployment.dll
+C:\My Web Sites\j2\joseph\bin\System.Web.Webpages.dll
+C:\My Web Sites\j2\joseph\bin\System.Web.Webpages.Razor.dll
+C:\My Web Sites\j2\joseph\bin\EntityFramework.xml
+C:\My Web Sites\j2\joseph\bin\EntityFramework.SqlServer.xml
+C:\My Web Sites\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\My Web Sites\j2\joseph\bin\System.Web.Razor.xml
+C:\My Web Sites\j2\joseph\bin\System.Web.Webpages.xml
+C:\My Web Sites\j2\joseph\bin\System.Web.Webpages.Deployment.xml
+C:\My Web Sites\j2\joseph\bin\System.Web.Webpages.Razor.xml
+C:\My Web Sites\j2\joseph\bin\System.Web.Helpers.xml
+C:\My Web Sites\j2\joseph\bin\System.Web.Mvc.xml
+C:\My Web Sites\j2\joseph\bin\tr\System.Web.Razor.resources.dll
+C:\My Web Sites\j2\joseph\bin\tr\System.Web.Webpages.resources.dll
+C:\My Web Sites\j2\joseph\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\My Web Sites\j2\joseph\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\My Web Sites\j2\joseph\bin\tr\System.Web.Helpers.resources.dll
+C:\My Web Sites\j2\joseph\bin\tr\System.Web.Mvc.resources.dll
+C:\My Web Sites\j2\joseph\obj\Debug\joseph.csprojResolveAssemblyReference.cache
+C:\My Web Sites\j2\joseph\obj\Debug\joseph.dll
+C:\My Web Sites\j2\joseph\obj\Debug\joseph.pdb
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\joseph.dll.config
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\joseph.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\joseph.pdb
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\EntityFramework.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\EntityFramework.SqlServer.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Helpers.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Mvc.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Razor.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Webpages.Deployment.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Webpages.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Webpages.Razor.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\EntityFramework.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\EntityFramework.SqlServer.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Razor.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Webpages.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Webpages.Deployment.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Webpages.Razor.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Helpers.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\System.Web.Mvc.xml
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\tr\System.Web.Razor.resources.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\obj\Debug\joseph.dll
+C:\Users\black\Desktop\j2 yeni\j2\joseph\obj\Debug\joseph.pdb
+C:\Users\black\Desktop\j2 yeni\j2\joseph\obj\Debug\joseph.csprojResolveAssemblyReference.cache
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\joseph.dll.config
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\joseph.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\joseph.pdb
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.SqlServer.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Helpers.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Mvc.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Razor.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Deployment.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Razor.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.SqlServer.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Razor.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Deployment.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Razor.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Helpers.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Mvc.xml
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Razor.resources.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\obj\Debug\joseph.dll
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\obj\Debug\joseph.pdb
+C:\Users\furkan\Desktop\j2 proje finish\j2\joseph\obj\Debug\joseph.csprojResolveAssemblyReference.cache
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\joseph.dll.config
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\joseph.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\joseph.pdb
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.SqlServer.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Helpers.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Mvc.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Razor.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Deployment.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Razor.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\EntityFramework.SqlServer.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Razor.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Deployment.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Webpages.Razor.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Helpers.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\System.Web.Mvc.xml
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Razor.resources.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\obj\Debug\joseph.csprojResolveAssemblyReference.cache
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\obj\Debug\joseph.dll
+C:\Users\black\Desktop\j2 proje finish\j2\joseph\obj\Debug\joseph.pdb
